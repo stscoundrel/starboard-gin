@@ -30,11 +30,16 @@ func starsEndpoint(c *gin.Context) {
 	c.JSON(http.StatusOK, responseStars)
 }
 
+func healthEndpoint(c *gin.Context) {
+	c.JSON(http.StatusOK, gin.H{"status": "ok"})
+}
+
 func main() {
 	router := gin.Default()
 	v1 := router.Group("/v1")
 	{
 		v1.GET("/stars/:username", starsEndpoint)
+		v1.GET("health", healthEndpoint)
 	}
 	router.Run()
 }
