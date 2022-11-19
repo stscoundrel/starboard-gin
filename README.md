@@ -4,9 +4,9 @@ Gin HTTP server to run [Starboard](https://github.com/stscoundrel/starboard). Li
 
 ## Live API
 
-App is hosted at [Render.com](https://starboard-sqrw.onrender.com/v1/stars/YOUR_USERNAME_HERE). Just change your username to the request url.
+App is hosted at [Render.com](https://starboard-sqrw.onrender.com/v2/stars/YOUR_USERNAME_HERE). Just change your username to the request url.
 
-`https://starboard-sqrw.onrender.com/v1/stars/YOUR_USERNAME_HERE`
+`https://starboard-sqrw.onrender.com/v2/stars/YOUR_USERNAME_HERE`
 
 ## Local development
 
